@@ -28,6 +28,6 @@ I made it just to practice DOM manipulation, localStorage, and overall how to ma
 Just download or clone the repo and open `index.html` in any browser.
 
 ```bash
-git clone https://github.com/yourusername/notie.git
+git clone https://github.com/bethe19/notie.git
 cd notie
 open index.html

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Notie - Make Note</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="def">
+  <div class="hero">
+    <div class="nav">
+      <h1 class="logo">Notie.</h1>
+      <div class="btn">
+        <button class="button" id="create" type="button">
+          <p class="create">Create</p>
+          <p class="plus">+</p>
+        </button>
+        <button class="button" id="dark" type="button" aria-label="Toggle Dark Mode">🌙</button>
+      </div>
+    </div>
+
+    <p class="tagline">No notes yet. Your ideas deserve a home.</p>
+
+    <div class="container cont2">
+      <form id="noteForm" class="hidden-form">
+        <input type="text" placeholder="Enter title" class="note-title" required />
+        <textarea placeholder="Start writing your note . . ." class="note" required></textarea>
+        <button type="submit" class="addb">ADD NOTE +</button>
+      </form>
+    </div>
+
+    <ul class="listnote"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
